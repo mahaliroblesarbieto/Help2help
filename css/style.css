@@ -584,7 +584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Product Featuress Section
 --------------------------------*/
 #features {
-  background: #fff;
+  background: linear-gradient(180deg, #FFEEDA 0%, rgba(196, 196, 196, 0) 100%);
   padding: 60px 0 0 0;
   overflow: hidden;
 }
@@ -593,7 +593,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding-top: 20px;
 }
-
+.btnwhatsapp{
+  border-radius: 400px;
+  background:  transparent;
+  border: 0px;
+}
 @media (min-width: 769px) {
   #features .features-img {
     padding-top: 120px;
